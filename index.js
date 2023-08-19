@@ -7,19 +7,6 @@ const app = express();
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: false }));
 
-// const options = {
-//   method: "GET",
-//   url: "https://flight-radar1.p.rapidapi.com/flights/search",
-//   params: {
-//     query: "FD3210",
-//     limit: "25",
-//   },
-//   headers: {
-//     "X-RapidAPI-Key": "60d25db614msh9a56e3eb5313535p1a11fdjsnd7892fc51fc7",
-//     "X-RapidAPI-Host": "flight-radar1.p.rapidapi.com",
-//   },
-// };
-
 const params = {
   access_key: "dc528adfe90db0b34678e970f1103070",
 };
